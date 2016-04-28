@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4797AAB91C21D91600174B99 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4797AAB81C21D91600174B99 /* main.cpp */; };
+		4797AAC11C21D9AE00174B99 /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4797AABF1C21D9AE00174B99 /* tools.cpp */; };
+		4797AAC41C21D9B700174B99 /* interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4797AAC21C21D9B700174B99 /* interface.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		4797AAB51C21D91600174B99 /* safe mass email */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "safe mass email"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4797AAB81C21D91600174B99 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4797AABF1C21D9AE00174B99 /* tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tools.cpp; sourceTree = "<group>"; };
+		4797AAC01C21D9AE00174B99 /* tools.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tools.hpp; sourceTree = "<group>"; };
+		4797AAC21C21D9B700174B99 /* interface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = interface.cpp; sourceTree = "<group>"; };
+		4797AAC31C21D9B700174B99 /* interface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = interface.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				4797AAB81C21D91600174B99 /* main.cpp */,
+				4797AAC21C21D9B700174B99 /* interface.cpp */,
+				4797AAC31C21D9B700174B99 /* interface.hpp */,
+				4797AABF1C21D9AE00174B99 /* tools.cpp */,
+				4797AAC01C21D9AE00174B99 /* tools.hpp */,
 			);
 			path = "safe mass email";
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4797AAB91C21D91600174B99 /* main.cpp in Sources */,
+				4797AAC11C21D9AE00174B99 /* tools.cpp in Sources */,
+				4797AAC41C21D9B700174B99 /* interface.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
